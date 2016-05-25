@@ -379,7 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilewits.test;
 				PRODUCT_NAME = RepuEmp;
-				PROVISIONING_PROFILE = "46e82afc-f2ab-482b-a63d-c662ace14c2f";
+				PROVISIONING_PROFILE = "8d81f86e-1e71-4913-9bc5-3975cacf96fa";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestenFarmDemo/TestenFarmDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -398,7 +398,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilewits.test;
 				PRODUCT_NAME = RepuEmp;
-				PROVISIONING_PROFILE = "46e82afc-f2ab-482b-a63d-c662ace14c2f";
+				PROVISIONING_PROFILE = "8d81f86e-1e71-4913-9bc5-3975cacf96fa";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestenFarmDemo/TestenFarmDemo-Bridging-Header.h";
 			};
 			name = Release;
