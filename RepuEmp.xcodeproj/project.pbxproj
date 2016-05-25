@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A00C4421C74E09F00C46F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00C4411C74E09F00C46F64 /* AppDelegate.swift */; };
+		4A00C4471C74E09F00C46F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A00C4451C74E09F00C46F64 /* Main.storyboard */; };
+		4A00C4491C74E09F00C46F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A00C4481C74E09F00C46F64 /* Assets.xcassets */; };
+		4A00C44C1C74E09F00C46F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A00C44A1C74E09F00C46F64 /* LaunchScreen.storyboard */; };
+		4A00C4541C74E1E000C46F64 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00C4531C74E1E000C46F64 /* LoginVC.swift */; };
+		4A00C4581C75081500C46F64 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00C4571C75081500C46F64 /* EmployeeListVC.swift */; };
+		4A00C45A1C750EC200C46F64 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00C4591C750EC200C46F64 /* ListViewCell.swift */; };
+		4A00C45C1C75221C00C46F64 /* EmployeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00C45B1C75221C00C46F64 /* EmployeeDetailVC.swift */; };
+		4A00C45E1C75412000C46F64 /* LinkedInInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00C45D1C75412000C46F64 /* LinkedInInVC.swift */; };
+		4A4C808C1C75DF2F00BD7E24 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C808B1C75DF2F00BD7E24 /* LocalAuthentication.framework */; };
+		4A4C808E1C75DFE200BD7E24 /* TouchIDUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C808D1C75DFE200BD7E24 /* TouchIDUtility.swift */; };
+		4A4C80901C778E0D00BD7E24 /* MoreInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C808F1C778E0D00BD7E24 /* MoreInfoVC.swift */; };
+		4A4C80921C78ABA700BD7E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C80911C78ABA700BD7E24 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4A4C80941C78ABCD00BD7E24 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C80931C78ABCD00BD7E24 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		76040F9A6BA415EE5D6BA91A /* libPods-RepuEmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB53DFAAFF3C5887E6E9E3BD /* libPods-RepuEmp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0DB41AA0062B5D0DB42E9F /* Pods-TestgridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestgridDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestgridDemo/Pods-TestgridDemo.release.xcconfig"; sourceTree = "<group>"; };
+		442C9721CF83C516E85368FE /* libPods-TestgridDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestgridDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A00C43E1C74E09F00C46F64 /* RepuEmp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepuEmp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A00C4411C74E09F00C46F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A00C4461C74E09F00C46F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A00C4481C74E09F00C46F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A00C44B1C74E09F00C46F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A00C44D1C74E09F00C46F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A00C4531C74E1E000C46F64 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LoginVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A00C4571C75081500C46F64 /* EmployeeListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EmployeeListVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A00C4591C750EC200C46F64 /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ListViewCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A00C45B1C75221C00C46F64 /* EmployeeDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EmployeeDetailVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A00C45D1C75412000C46F64 /* LinkedInInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LinkedInInVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A00C45F1C7551EA00C46F64 /* TestenFarmDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestenFarmDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A4C808B1C75DF2F00BD7E24 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		4A4C808D1C75DFE200BD7E24 /* TouchIDUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = TouchIDUtility.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A4C808F1C778E0D00BD7E24 /* MoreInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MoreInfoVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A4C80911C78ABA700BD7E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A4C80931C78ABCD00BD7E24 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B43BDD7878ABA770A6195E6B /* Pods-TestgridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestgridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestgridDemo/Pods-TestgridDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B83C08A77C384C501E3DB2EB /* Pods-RepuEmp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepuEmp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp.debug.xcconfig"; sourceTree = "<group>"; };
+		FB53DFAAFF3C5887E6E9E3BD /* libPods-RepuEmp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RepuEmp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0512BAD4423DA557BC465F /* Pods-RepuEmp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepuEmp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A00C43B1C74E09F00C46F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4C80941C78ABCD00BD7E24 /* CoreFoundation.framework in Frameworks */,
+				4A4C80921C78ABA700BD7E24 /* Foundation.framework in Frameworks */,
+				4A4C808C1C75DF2F00BD7E24 /* LocalAuthentication.framework in Frameworks */,
+				76040F9A6BA415EE5D6BA91A /* libPods-RepuEmp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A00C4351C74E09F00C46F64 = {
+			isa = PBXGroup;
+			children = (
+				4A00C4401C74E09F00C46F64 /* RepuEmp */,
+				4A00C43F1C74E09F00C46F64 /* Products */,
+				6E3553B671C9C3218060CAF3 /* Pods */,
+				D6C995039FE380BDB91224C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A00C43F1C74E09F00C46F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A00C43E1C74E09F00C46F64 /* RepuEmp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A00C4401C74E09F00C46F64 /* RepuEmp */ = {
+			isa = PBXGroup;
+			children = (
+				4A00C4531C74E1E000C46F64 /* LoginVC.swift */,
+				4A00C4591C750EC200C46F64 /* ListViewCell.swift */,
+				4A00C4571C75081500C46F64 /* EmployeeListVC.swift */,
+				4A00C4411C74E09F00C46F64 /* AppDelegate.swift */,
+				4A00C45B1C75221C00C46F64 /* EmployeeDetailVC.swift */,
+				4A00C45D1C75412000C46F64 /* LinkedInInVC.swift */,
+				4A00C4451C74E09F00C46F64 /* Main.storyboard */,
+				4A00C4481C74E09F00C46F64 /* Assets.xcassets */,
+				4A00C44A1C74E09F00C46F64 /* LaunchScreen.storyboard */,
+				4A00C44D1C74E09F00C46F64 /* Info.plist */,
+				4A00C45F1C7551EA00C46F64 /* TestenFarmDemo-Bridging-Header.h */,
+				4A4C808D1C75DFE200BD7E24 /* TouchIDUtility.swift */,
+				4A4C808F1C778E0D00BD7E24 /* MoreInfoVC.swift */,
+			);
+			name = RepuEmp;
+			path = TestenFarmDemo;
+			sourceTree = "<group>";
+		};
+		6E3553B671C9C3218060CAF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B43BDD7878ABA770A6195E6B /* Pods-TestgridDemo.debug.xcconfig */,
+				1A0DB41AA0062B5D0DB42E9F /* Pods-TestgridDemo.release.xcconfig */,
+				B83C08A77C384C501E3DB2EB /* Pods-RepuEmp.debug.xcconfig */,
+				FC0512BAD4423DA557BC465F /* Pods-RepuEmp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6C995039FE380BDB91224C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4C80931C78ABCD00BD7E24 /* CoreFoundation.framework */,
+				4A4C80911C78ABA700BD7E24 /* Foundation.framework */,
+				4A4C808B1C75DF2F00BD7E24 /* LocalAuthentication.framework */,
+				442C9721CF83C516E85368FE /* libPods-TestgridDemo.a */,
+				FB53DFAAFF3C5887E6E9E3BD /* libPods-RepuEmp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A00C43D1C74E09F00C46F64 /* RepuEmp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A00C4501C74E09F00C46F64 /* Build configuration list for PBXNativeTarget "RepuEmp" */;
+			buildPhases = (
+				809CA9C1D475311BE1570809 /* 📦 Check Pods Manifest.lock */,
+				4A00C43A1C74E09F00C46F64 /* Sources */,
+				4A00C43B1C74E09F00C46F64 /* Frameworks */,
+				4A00C43C1C74E09F00C46F64 /* Resources */,
+				A72E2E00ED437041200DB0F7 /* 📦 Embed Pods Frameworks */,
+				85D71505B7EDC3D48D35E1DF /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepuEmp;
+			productName = TestenFarmDemo;
+			productReference = 4A00C43E1C74E09F00C46F64 /* RepuEmp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A00C4361C74E09F00C46F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Harry;
+				TargetAttributes = {
+					4A00C43D1C74E09F00C46F64 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T9PVZR5SPF;
+					};
+				};
+			};
+			buildConfigurationList = 4A00C4391C74E09F00C46F64 /* Build configuration list for PBXProject "RepuEmp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A00C4351C74E09F00C46F64;
+			productRefGroup = 4A00C43F1C74E09F00C46F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A00C43D1C74E09F00C46F64 /* RepuEmp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A00C43C1C74E09F00C46F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A00C44C1C74E09F00C46F64 /* LaunchScreen.storyboard in Resources */,
+				4A00C4491C74E09F00C46F64 /* Assets.xcassets in Resources */,
+				4A00C4471C74E09F00C46F64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		809CA9C1D475311BE1570809 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85D71505B7EDC3D48D35E1DF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72E2E00ED437041200DB0F7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A00C43A1C74E09F00C46F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A00C45C1C75221C00C46F64 /* EmployeeDetailVC.swift in Sources */,
+				4A4C808E1C75DFE200BD7E24 /* TouchIDUtility.swift in Sources */,
+				4A00C45E1C75412000C46F64 /* LinkedInInVC.swift in Sources */,
+				4A4C80901C778E0D00BD7E24 /* MoreInfoVC.swift in Sources */,
+				4A00C45A1C750EC200C46F64 /* ListViewCell.swift in Sources */,
+				4A00C4581C75081500C46F64 /* EmployeeListVC.swift in Sources */,
+				4A00C4541C74E1E000C46F64 /* LoginVC.swift in Sources */,
+				4A00C4421C74E09F00C46F64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A00C4451C74E09F00C46F64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A00C4461C74E09F00C46F64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A00C44A1C74E09F00C46F64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A00C44B1C74E09F00C46F64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A00C44E1C74E09F00C46F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A00C44F1C74E09F00C46F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A00C4511C74E09F00C46F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83C08A77C384C501E3DB2EB /* Pods-RepuEmp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TestenFarmDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilewits.test;
+				PRODUCT_NAME = RepuEmp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestenFarmDemo/TestenFarmDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A00C4521C74E09F00C46F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0512BAD4423DA557BC465F /* Pods-RepuEmp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TestenFarmDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilewits.test;
+				PRODUCT_NAME = RepuEmp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestenFarmDemo/TestenFarmDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A00C4391C74E09F00C46F64 /* Build configuration list for PBXProject "RepuEmp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A00C44E1C74E09F00C46F64 /* Debug */,
+				4A00C44F1C74E09F00C46F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A00C4501C74E09F00C46F64 /* Build configuration list for PBXNativeTarget "RepuEmp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A00C4511C74E09F00C46F64 /* Debug */,
+				4A00C4521C74E09F00C46F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A00C4361C74E09F00C46F64 /* Project object */;
+}
