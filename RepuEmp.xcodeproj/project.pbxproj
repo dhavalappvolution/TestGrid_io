@@ -21,6 +21,7 @@
 		4A4C80901C778E0D00BD7E24 /* MoreInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C808F1C778E0D00BD7E24 /* MoreInfoVC.swift */; };
 		4A4C80921C78ABA700BD7E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C80911C78ABA700BD7E24 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4A4C80941C78ABCD00BD7E24 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C80931C78ABCD00BD7E24 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B9121BCCCE8911963FF25733 /* libPods-RepuEmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB53DFAAFF3C5887E6E9E3BD /* libPods-RepuEmp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 				4A4C80941C78ABCD00BD7E24 /* CoreFoundation.framework in Frameworks */,
 				4A4C80921C78ABA700BD7E24 /* Foundation.framework in Frameworks */,
 				4A4C808C1C75DF2F00BD7E24 /* LocalAuthentication.framework in Frameworks */,
+				B9121BCCCE8911963FF25733 /* libPods-RepuEmp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,12 +134,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A00C4501C74E09F00C46F64 /* Build configuration list for PBXNativeTarget "RepuEmp" */;
 			buildPhases = (
+				C8121B75921A681001D7355C /* Check Pods Manifest.lock */,
 				809CA9C1D475311BE1570809 /* 📦 Check Pods Manifest.lock */,
 				4A00C43A1C74E09F00C46F64 /* Sources */,
 				4A00C43B1C74E09F00C46F64 /* Frameworks */,
 				4A00C43C1C74E09F00C46F64 /* Resources */,
 				A72E2E00ED437041200DB0F7 /* 📦 Embed Pods Frameworks */,
 				85D71505B7EDC3D48D35E1DF /* 📦 Copy Pods Resources */,
+				A037CAF96F1240F950494362 /* Embed Pods Frameworks */,
+				F2C2B8DAA83C65016FAC9C27 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +231,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A037CAF96F1240F950494362 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A72E2E00ED437041200DB0F7 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +259,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8121B75921A681001D7355C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C2B8DAA83C65016FAC9C27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepuEmp/Pods-RepuEmp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
