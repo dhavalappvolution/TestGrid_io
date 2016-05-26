@@ -21,7 +21,6 @@
 		4A4C80901C778E0D00BD7E24 /* MoreInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C808F1C778E0D00BD7E24 /* MoreInfoVC.swift */; };
 		4A4C80921C78ABA700BD7E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C80911C78ABA700BD7E24 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4A4C80941C78ABCD00BD7E24 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4C80931C78ABCD00BD7E24 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		B9121BCCCE8911963FF25733 /* libPods-RepuEmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB53DFAAFF3C5887E6E9E3BD /* libPods-RepuEmp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +57,6 @@
 				4A4C80941C78ABCD00BD7E24 /* CoreFoundation.framework in Frameworks */,
 				4A4C80921C78ABA700BD7E24 /* Foundation.framework in Frameworks */,
 				4A4C808C1C75DF2F00BD7E24 /* LocalAuthentication.framework in Frameworks */,
-				B9121BCCCE8911963FF25733 /* libPods-RepuEmp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
